@@ -22,11 +22,10 @@ const Navbar = () => {
                 className={`bg-[#0e0e0e] min-h-screen ${open ? "w-64" : "w-16"
                     } duration-500 text-gray-100 px-4`}
             >
-                <div className="py-2 flex justify-end">
+                <div onClick={() => setOpen(!open)} className="py-2 flex justify-end">
                     <HiMenuAlt3
                         size={26}
                         className="cursor-pointer"
-                        onClick={() => setOpen(!open)}
                     />
                 </div>
                 <div className="mt-4 flex flex-col gap-4 relative">
