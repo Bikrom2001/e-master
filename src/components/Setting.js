@@ -50,7 +50,6 @@ const Setting = () => {
                         <p className='text-justify w-72'>Lorem ipsum dolor sit <br />amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     );
