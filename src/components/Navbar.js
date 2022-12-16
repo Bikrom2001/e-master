@@ -9,6 +9,7 @@ import { FaUserClock } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Setting from './Setting';
+import SettingIcons from './SettingIcons';
 
 const Navbar = () => {
 
@@ -16,6 +17,7 @@ const Navbar = () => {
 
     return (
         <section className="fixed top-0 bottom-0">
+            <SettingIcons></SettingIcons>
             <div
                 className={`bg-[#0e0e0e] min-h-screen ${open ? "w-64" : "w-16"
                     } duration-500 text-gray-100 px-4`}
@@ -44,14 +46,14 @@ const Navbar = () => {
                         </h2>
                         <h2
                             className={`${open && "hidden"
-                                } absolute left-48 bg-white font-semibold whitespace-pre text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-2 group-hover:py-1 group-hover:left-14 group-hover:duration-300 group-hover:w-fit  `}
+                                } absolute left-48  font-semibold whitespace-pre text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-2 group-hover:py-1 group-hover:left-14 group-hover:duration-300 group-hover:w-fit  `}
                         >
 
                         </h2>
                     </Link>
 
                     <Link
-                        to='/'
+                        to='/home'
                         className="group flex items-center text-sm  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md"
                     >
                         <div>{React.createElement(FaHome, { size: "20" })}</div>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <div className='px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
+    <div className='px-6 py-4 shadow-lg mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen md:px-24 lg:px-8'>
       <div className='relative pl-56 flex items-center justify-between'>
         <div
           className='inline-flex items-center'
