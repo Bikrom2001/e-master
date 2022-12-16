@@ -4,7 +4,7 @@ import { FaUserClock } from "react-icons/fa";
 const Setting = () => {
     return (
         <div>
-            <div className="h-screen rounded-md relative left-0 top-1 p-4 space-y-2 w-80 lg:w-[340px] bg-[#6465F1] text-gray-100">
+            <div className="h-screen relative left-0 top-1 p-4 space-y-2 w-80 lg:w-[340px] bg-[#6465F1] text-gray-100">
                 <h2 className='text-left mb-4 pl-4 text-lg font-semibold'>Settings</h2>
                 <div class="flex w-72 p-4 rounded-md items-start gap-3 hover:bg-[#4548A9]">
                     <div>

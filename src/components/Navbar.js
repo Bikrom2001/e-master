@@ -168,21 +168,21 @@ const Navbar = () => {
 
                     <Link
                         to='/'
-                        className="group flex items-center text-sm  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md"
+                        className="group flex items-center text-sm  gap-3.5 font-medium p-2 hover:bg-gray-800 "
                     >
                         <div className=''>{React.createElement(RiSettings4Line, { size: "20" })}</div>
                         <h2
                             style={{
                                 transitionDelay: `${1 + 7}00ms`,
                             }}
-                            className={`whitespace-pre duration-500 ${!open && "opacity-0 translate-x-28 overflow-hidden"
+                            className={`whitespace-pre duration-500 ${!open && "opacity-0 translate-x-28 overflow-hidden rounded-md"
                                 }`}
                         >
                             <h3>Setting</h3>
                         </h2>
                         <h2
                             className={`${open && "hidden"
-                                } absolute left-44 top-[-67px] font-semibold whitespace-pre text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-0 group-hover:py-1 group-hover:left-9 group-hover:duration-300 group-hover:w-fit`}
+                                } absolute left-44 top-[-67px] font-semibold whitespace-pre text-gray-900  drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-0 group-hover:py-1 group-hover:left-9 group-hover:duration-300 group-hover:w-fit`}
                         >
                             <Setting></Setting>
 
