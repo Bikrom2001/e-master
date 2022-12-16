@@ -76,7 +76,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                        to='/'
+                        to='/bookmarks'
                         className="group flex items-center text-sm  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md"
                     >
                         <div>{React.createElement(FaRegBookmark, { size: "20" })}</div>
@@ -99,7 +99,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                        to='/'
+                        to='/user'
                         className="group flex items-center text-sm  gap-3.5 font-medium p-2 hover:bg-gray-800 rounded-md"
                     >
                         <div>{React.createElement(FaUserClock, { size: "20" })}</div>

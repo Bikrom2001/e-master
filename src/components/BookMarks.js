@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Home = () => {
+const BookMarks = () => {
     return (
         <div className='flex justify-center items-center w-full h-96'>
-            <h2 className='text-4xl font-semibold'>Welcome to Home</h2>
+            <h2 className='text-4xl font-semibold'>Welcome to BookMark</h2>
         </div>
     );
 };
 
-export default Home;
+export default BookMarks;
