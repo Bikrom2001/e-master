@@ -183,7 +183,7 @@ const Navbar = () => {
                         </h2>
                         <h2
                             className={`${open && "hidden"
-                                } absolute left-44 top-1 font-semibold whitespace-pre text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-0 group-hover:py-1 group-hover:left-9 group-hover:duration-300 group-hover:w-fit  `}
+                                } absolute left-44 top-[-67px] font-semibold whitespace-pre text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-0 group-hover:py-1 group-hover:left-9 group-hover:duration-300 group-hover:w-fit`}
                         >
                             <Setting></Setting>
 
