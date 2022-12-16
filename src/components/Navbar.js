@@ -13,7 +13,7 @@ import SettingIcons from './SettingIcons';
 
 const Navbar = () => {
 
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
     return (
         <section className="fixed top-0 bottom-0">
